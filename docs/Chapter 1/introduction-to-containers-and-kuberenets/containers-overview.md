@@ -53,7 +53,7 @@ If the web application crashes, the database process can continue running indepe
 
 It means each container has an isolated environment, so its processes do not normally interfere directly with processes in other containers.
 
-Containers use operating-system features, such as **namespaces** and **control groups (cgroups)**, to provide isolation and manage resources.
+Containers use operating-system features, such as **namespaces** and **control groups (cgroups)**, to provide isolation and manage resources.<br />Note:<br />(The above highlighted will cover in next topics).
 
 ### 4. Remember this for OpenShift
 
