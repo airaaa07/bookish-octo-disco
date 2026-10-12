@@ -90,7 +90,11 @@ OpenShift helps manage the containers running these components across a cluster 
 | Backend   | Container |
 | Database  | Container |
 
-OpenShift orchestrates deployment, scaling, networking, and recovery of containerized applications.
+OpenShift orchestrates deployment, scaling, networking, and recovery of containerized applications.<br />
+
+
+<Image src="https://files.readme.io/13f0a00d60af7105145050f694d09c7277178a5261917501f73d224e178a1a41-hostvscontainer.png" align="center" caption="Figure 1 and 2" border={true} framed={true} />
+
 
 ## 5. The Key Takeaway
 
