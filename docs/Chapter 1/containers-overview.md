@@ -6,11 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-A container is a process that runs an application independently from other containers on the host.
-
-A process is a program that is currently running on a computer.
-
-Let's understand it step by step.
+A container is a process that runs an application independently from other containers on the host.<br />**What is a process?**<br />A process is a program that is currently running on a computer.
 
 ### 1. Program vs. Process
 
