@@ -1,16 +1,16 @@
 ---
 title: Why Do We Need Containers?
 excerpt: >-
-  If a host can already run multiple processes, why do we need containers at
-  all?
+  Compare host processes with containers to understand isolation, dependency
+  management, and deployment.
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-**Processes let us run applications, while containers help us run applications in isolated, consistent, and manageable environments.**
+Compare applications running directly on a host with applications packaged in containers to understand when containers help.
 
-Let's understand why.
+Processes run applications; containers package and isolate their running environments.
 
 ## 1. Without Containers: Multiple Processes on One Host
 
@@ -26,18 +26,18 @@ However, suppose each application needs a different version of a dependency.
 
 **One host machine — One operating system**
 
-| Application | Requirement   |
-| ----------- | ------------- |
-| App A       | Python 3.9    |
-| App B       | PostgreSQL 16 |
-| App C       | Python 3.12   |
+| Application | Example requirement |
+| ----------- | ------------------- |
+| App A       | Python 3.9          |
+| App B       | PostgreSQL 16       |
+| App C       | Python 3.12         |
 
-Applications share the host's environment. Dependency conflicts and configuration differences can become difficult to manage.
+Applications installed directly on a host can depend on different versions of the same software, as Apps A and C do here. Managing these dependencies and their configurations in a shared host environment can become difficult.
 
 The problem isn't that processes cannot run together. They can! The problem is managing their dependencies, configuration, permissions, and deployment without conflicts.
 
 
-<Image src="https://files.readme.io/2fd3ba5dd40d29f56930f2d7e45ec9a6a2d78177fdde109e6b26e67b68fced78-applcations.png" align="center" caption="Figure1" border={true} framed={true} />
+<Image src="https://files.readme.io/2fd3ba5dd40d29f56930f2d7e45ec9a6a2d78177fdde109e6b26e67b68fced78-applcations.png" align="center" caption="Applications running on one host" border={true} framed={true} />
 
 
 ## 2. With Containers: Each Application Gets Its Own Environment
@@ -57,7 +57,7 @@ Each container has its own isolated application environment, but all share the h
 Now, each application can use its own dependency versions without needing to install all of them into one shared host environment.
 
 
-<Image src="https://files.readme.io/681774a7d5ee48866ef86763bfa907262a012d3a7b554e1068714db0d4a1d7c6-containers.png" align="center" caption="Figure2" border={true} framed={true} />
+<Image src="https://files.readme.io/681774a7d5ee48866ef86763bfa907262a012d3a7b554e1068714db0d4a1d7c6-containers.png" align="center" caption="Applications packaged in separate containers" border={true} framed={true} />
 
 
 ## 3. Why Are Containers Useful?
@@ -90,10 +90,10 @@ OpenShift helps manage the containers running these components across a cluster 
 | Backend   | Container |
 | Database  | Container |
 
-OpenShift orchestrates deployment, scaling, networking, and recovery of containerized applications.<br />
+OpenShift orchestrates deployment, scaling, networking, and recovery of containerized applications.
 
 
-<Image src="https://files.readme.io/13f0a00d60af7105145050f694d09c7277178a5261917501f73d224e178a1a41-hostvscontainer.png" align="center" caption="Figure 1 and 2" border={true} framed={true} />
+<Image src="https://files.readme.io/13f0a00d60af7105145050f694d09c7277178a5261917501f73d224e178a1a41-hostvscontainer.png" align="center" caption="Host processes compared with containers" border={true} framed={true} />
 
 
 ## 5. The Key Takeaway
@@ -105,6 +105,4 @@ OpenShift orchestrates deployment, scaling, networking, and recovery of containe
 | Virtual machine | Runs a separate operating-system instance with its own kernel        |
 | OpenShift       | Manages and orchestrates containerized applications across a cluster |
 
-**The important distinction:** We don't use containers because a host cannot run multiple processes. We use them because packaging, isolating, deploying, and managing applications becomes much easier and more consistent.
-
-Clarify the dependency examplesExplain container boundaries more precisely
+**The important distinction:** We don't use containers because a host cannot run multiple processes. We use them to package, isolate, deploy, and manage applications more consistently. Containers share the host kernel, and their isolation depends on the configured permissions and security controls.
