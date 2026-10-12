@@ -34,7 +34,7 @@ However, suppose each application needs a different version of a dependency.
 
 Applications share the host's environment. Dependency conflicts and configuration differences can become difficult to manage.
 
-The problem isn't that processes cannot run together. They can! The problem is managing their dependencies, configuration, permissions, and deployment without conflicts.<br />
+The problem isn't that processes cannot run together. They can! The problem is managing their dependencies, configuration, permissions, and deployment without conflicts.
 
 ![](https://files.readme.io/2fd3ba5dd40d29f56930f2d7e45ec9a6a2d78177fdde109e6b26e67b68fced78-applcations.png)
 
@@ -52,7 +52,7 @@ Instead of installing everything directly on the host, you package each applicat
 
 Each container has its own isolated application environment, but all share the host kernel.
 
-Now, each application can use its own dependency versions without needing to install all of them into one shared host environment.<br />
+Now, each application can use its own dependency versions without needing to install all of them into one shared host environment.
 
 ![](https://files.readme.io/681774a7d5ee48866ef86763bfa907262a012d3a7b554e1068714db0d4a1d7c6-containers.png)
 
