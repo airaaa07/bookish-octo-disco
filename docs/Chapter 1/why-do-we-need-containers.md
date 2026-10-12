@@ -8,8 +8,6 @@ hidden: false
 metadata:
   robots: index
 ---
-If a host can already run multiple processes, why do we need containers at all?
-
 **Processes let us run applications, while containers help us run applications in isolated, consistent, and manageable environments.**
 
 Let's understand why.
