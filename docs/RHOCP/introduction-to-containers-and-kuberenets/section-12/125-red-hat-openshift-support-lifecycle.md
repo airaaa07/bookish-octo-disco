@@ -19,9 +19,9 @@ Starting from OpenShift Container Platform 4.14, the EUS phase for even-numbered
 
 <Anchor target="_blank" href="https://www.redhat.com/en/technologies/cloud-computing/openshift/platform-plus">Red Hat OpenShift Platform Plus</Anchor>
 
-[Supported Platforms for OpenShift Container Platform Clusters (RHOCP 4.22)]()
+<Anchor target="_blank" href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html-single/architecture/index#supported-platforms-for-openshift-clusters_architecture-installation">Supported Platforms for OpenShift Container Platform Clusters (RHOCP 4.22)</Anchor>
 
-Red Hat OpenShift Container Platform Life Cycle Policy
+[Red Hat OpenShift Container Platform Life Cycle Policy]()
 
 #### External Resources
 
