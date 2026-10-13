@@ -333,11 +333,7 @@ Its key concepts are:
 
 **In simple terms:** Administrators describe what they want Kubernetes to run, submit that configuration through the API, and rely on Kubernetes controllers to work toward maintaining the requested state.
 
-<br /><br />
-
-<br /><br />
-
-#### **References**<br />**External Resources**
+## **Refernces**<br />**External Resources**
 
 <Anchor target="_blank" href="https://kubernetes.io/docs/concepts/containers/">Containers</Anchor>
 
