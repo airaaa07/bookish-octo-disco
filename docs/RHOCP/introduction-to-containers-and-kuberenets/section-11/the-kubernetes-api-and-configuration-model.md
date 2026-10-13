@@ -281,9 +281,9 @@ Namespaces, RBAC, and resource quotas can work together to improve the organizat
 
 ## 10. How the Kubernetes Configuration Model Works
 
-The following Mermaid diagram illustrates the declarative workflow.
+The following Mermaid diagram illustrates the declarative workflow.<br />
 
-```
+```mermaid
 flowchart TD
     A["Administrator defines desired state"]
     B["YAML or JSON manifest"]
