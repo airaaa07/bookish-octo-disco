@@ -11,9 +11,9 @@ Starting from OpenShift Container Platform 4.14, the EUS phase for even-numbered
 
 #### **References**<br />**Red Hat Resources**
 
-OpenShift Container Platform Overview (RHOCP 4.22)
+<Anchor target="_blank" href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html-single/architecture/index#architecture-platform-benefits_architecture">OpenShift Container Platform Overview (RHOCP 4.22)</Anchor>
 
-Red Hat OpenShift Kubernetes Engine
+[Red Hat OpenShift Kubernetes Engine]()
 
 Red Hat OpenShift Cloud Services
 
