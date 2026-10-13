@@ -391,4 +391,8 @@ Kubernetes brings these components together to help applications run consistentl
 - Better learning sequence: It progresses from the definition of Kubernetes to clusters, pods, workloads, and application deployment.
 - More practical: It includes a working Deployment manifest and useful `kubectl` commands.
 - Technically clearer: It distinguishes containers from pods, resource requests from limits, and pod recovery from guaranteed high availability.
-- README-friendly: It uses consistent headings, concise explanations, tables, and examples suitable for a GitHub repository.
+- README-friendly: It uses consistent headings, concise explanations, tables, and examples suitable for a GitHub repository.<br />
+
+  ![](https://files.readme.io/a953436c39f8d11f793d5e5d1f267914a8c38c26138882bea98a09dcd55019f8-Kubernetes_Overview__End-to-End_Cluster_Flow.png)
+
+  <br />
