@@ -119,7 +119,81 @@ A typical production architecture includes multiple control plane nodes for high
 
 The following diagram illustrates the relationship between these components.
 
-\<box border radius="xl" padding={3} gap={3}> \<box background="#E8F0FE" theme="light" radius="lg" padding={3} align="center" gap={1}> \<title size="lg" color="#174EA6">Control Plane\</title> \<text color="#174EA6" textAlign="center" size="sm">API Server · etcd · Scheduler · Controller Manager\</text> \</box> \<box align="center" gap={1}> \<icon name="arrow-down-up" size="xl" color="secondary"/> \<text color="secondary" size="sm">API communication and cluster coordination\</text> \</box> \<grid columns={3} gap={2}> \<grid-item> \<box border radius="lg" padding={2} align="center" gap={2}> \<icon name="server" size="xl"/> \<text weight="medium" textAlign="center">Worker Node 1\</text> \<divider/> \<icon name="box" size="lg" color="success"/> \<text size="sm" textAlign="center">Application Pod\</text> \</box> \</grid-item> \<grid-item> \<box border radius="lg" padding={2} align="center" gap={2}> \<icon name="server" size="xl"/> \<text weight="medium" textAlign="center">Worker Node 2\</text> \<divider/> \<icon name="box" size="lg" color="success"/> \<text size="sm" textAlign="center">Application Pod\</text> \</box> \</grid-item> \<grid-item> \<box border radius="lg" padding={2} align="center" gap={2}> \<icon name="server" size="xl"/> \<text weight="medium" textAlign="center">Worker Node 3\</text> \<divider/> \<icon name="box" size="lg" color="success"/> \<text size="sm" textAlign="center">Application Pod\</text> \</box> \</grid-item> \</grid> \<text color="secondary" size="xs">Illustrative architecture: production deployments may use multiple control plane nodes and distribute multiple pods across each worker node.\</text> \</box>
+```mermaid
+flowchart TB
+    subgraph CP["Kubernetes Control Plane"]
+        API["API Server"]
+        ETCD[("etcd")]
+        SCH["Scheduler"]
+        CM["Controller Manager"]
+
+        API <--> ETCD
+        API --- SCH
+        API --- CM
+    end
+
+    subgraph WP["Kubernetes Worker Nodes"]
+        subgraph W1["Worker Node 1"]
+            P1["Pod 1<br/>Application Container"]
+        end
+
+        subgraph W2["Worker Node 2"]
+            P2["Pod 2<br/>Application Container"]
+        end
+
+        subgraph W3["Worker Node 3"]
+            P3["Pod 3<br/>Application Container"]
+        end
+    end
+
+    API <--> W1
+    API <--> W2
+    API <--> W3
+
+    classDef control fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    classDef worker fill:#dcfce7,stroke:#16a34a,color:#14532d
+    class API,ETCD,SCH,CM control
+    class P1,P2,P3 worker
+```
+
+<br />
+
+```mermaid
+flowchart TB
+    subgraph CP["Kubernetes Control Plane"]
+        API["API Server"]
+        ETCD[("etcd")]
+        SCH["Scheduler"]
+        CM["Controller Manager"]
+
+        API <--> ETCD
+        API --- SCH
+        API --- CM
+    end
+
+    subgraph WP["Kubernetes Worker Nodes"]
+        subgraph W1["Worker Node 1"]
+            P1["Pod 1<br/>Application Container"]
+        end
+
+        subgraph W2["Worker Node 2"]
+            P2["Pod 2<br/>Application Container"]
+        end
+
+        subgraph W3["Worker Node 3"]
+            P3["Pod 3<br/>Application Container"]
+        end
+    end
+
+    API <--> W1
+    API <--> W2
+    API <--> W3
+
+```
+```
+
+Note: This is a simplified architecture diagram. The API server is the central communication point for Kubernetes API operations; the scheduler and controllers interact with it rather than communicating directly with worker nodes for routine management.
+```
 
 ## 7. Hosted Control Plane Architecture
 
