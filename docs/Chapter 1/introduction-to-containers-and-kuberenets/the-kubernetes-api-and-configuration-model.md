@@ -20,3 +20,14 @@ Declarative resource management can reduce the work to create workloads and impr
 To support declarative resource management, Kubernetes uses controllers that continuously track the state of the cluster and perform the necessary steps to keep the cluster in the intended state. This process means that changes to resources often require some time to be effective. However, Kubernetes can automatically apply complex changes. For example, if you increase the RAM requirements of an application that cannot be satisfied on the current node, then Kubernetes can move the application to a node with sufficient RAM. Kubernetes redirects traffic to the new instance only when the movement is complete.
 
 Kubernetes also supports namespaces. Administrators can create namespaces, and most resources must be created inside a namespace. Besides helping organize large amounts of resources, namespaces provide the foundations for features such as resource access. Administrators can define permissions for namespaces, to allow specific users to view or modify resources.<br /><br />
+
+References
+External Resources
+
+<Anchor target="_blank" href="https://kubernetes.io/docs/concepts/containers/">Containers</Anchor>
+
+Kubernetes Concepts Overview
+
+What Kubernetes Is Not
+
+Considerations for Large Clusters
