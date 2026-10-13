@@ -49,7 +49,14 @@ If the web application crashes, the database process can continue running indepe
 
 It means each container has an isolated environment, so its processes do not normally interfere directly with processes in other containers.
 
-Containers use operating-system features, such as **namespaces** and **control groups (cgroups)**, to provide isolation and manage resources.<br />Note:<br />(The above highlighted will cover in next topics).
+Containers use Linux kernel features, such as **namespaces** and **control groups (cgroups)**, to provide process isolation and resource management.
+
+- **Namespaces:** Isolate a container's processes and resources from those of other containers and the host system. They provide separate views of resources such as process IDs, network interfaces, mount points, and hostnames, allowing containers to operate independently.
+- **Control groups (cgroups):** Manage and limit the resources that container processes can consume, such as CPU time and system memory. They help prevent one container from consuming excessive resources and affecting other containers running on the same host.
+
+The **Open Container Initiative (OCI)** maintains open standards for container images, container runtimes, and container-related technologies. These standards define common formats and behaviors that promote compatibility across different container tools and platforms.
+
+By following OCI specifications, container images can be built and packaged in a standardized format and run on compatible container runtimes, reducing dependence on a specific container engine or platform.
 
 ### 4. Remember this for OpenShift
 
