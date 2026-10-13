@@ -27,3 +27,5 @@ OpenShift also brings unified tools and a graphical web console to manage all th
 This diagram shows many of the projects that provide the various functions within each OpenShift cluster:<br /><br />
 
 ![](https://files.readme.io/80f1e3bab121637d297d12e9855cf320bd17633a513bbe631122a89c398c5269-editions.png)
+
+Because OpenShift features build on Kubernetes extensibility, administrators can often operate these features by using their existing Kubernetes knowledge. Besides Kubernetes knowledge, OpenShift administrators can use most existing products that are designed for Kubernetes.
