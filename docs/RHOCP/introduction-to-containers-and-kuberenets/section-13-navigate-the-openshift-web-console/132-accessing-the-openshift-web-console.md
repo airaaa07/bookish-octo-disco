@@ -22,4 +22,4 @@ The oc login command output displays the Console URL shortcut. This API-based en
 Alternatively, retrieve the direct web console URL by running the oc whoami --show-console command:
 
 \[user\@host \~]$ oc whoami --show-console
-[https://console-openshift-console.apps.lab.example.com](https://console-openshift-console.apps.lab.example.com)
+[https://console-openshift-console.apps.lab.example.com](https://console-openshift-console.apps.lab.example.com)<br /><br />Lastly, use a web browser to go to the URL, which displays the authentication page:
