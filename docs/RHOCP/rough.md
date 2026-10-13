@@ -190,10 +190,6 @@ flowchart TB
     API <--> W3
 
 ```
-```
-
-Note: This is a simplified architecture diagram. The API server is the central communication point for Kubernetes API operations; the scheduler and controllers interact with it rather than communicating directly with worker nodes for routine management.
-```
 
 ## 7. Hosted Control Plane Architecture
 
