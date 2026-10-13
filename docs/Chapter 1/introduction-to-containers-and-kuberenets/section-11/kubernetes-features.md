@@ -1,7 +1,9 @@
 ---
-title: Kubernetes Features
+title: 1.1.3 - Kubernetes Features
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
