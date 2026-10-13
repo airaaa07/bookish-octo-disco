@@ -21,12 +21,11 @@ To support declarative resource management, Kubernetes uses controllers that con
 
 Kubernetes also supports namespaces. Administrators can create namespaces, and most resources must be created inside a namespace. Besides helping organize large amounts of resources, namespaces provide the foundations for features such as resource access. Administrators can define permissions for namespaces, to allow specific users to view or modify resources.<br /><br />
 
-References
-External Resources
+References<br />External Resources
 
 <Anchor target="_blank" href="https://kubernetes.io/docs/concepts/containers/">Containers</Anchor>
 
-Kubernetes Concepts Overview
+[Kubernetes Concepts Overview]()
 
 What Kubernetes Is Not
 
