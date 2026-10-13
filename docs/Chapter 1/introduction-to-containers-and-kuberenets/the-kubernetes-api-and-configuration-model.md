@@ -12,3 +12,5 @@ Administrators define workloads in terms of resources.
 All resource types work in the same way, with a uniform API. Tools such as the kubectl command can manage resources of all types, even custom resource types.
 
 Kubernetes can import and export resources as text files. By working with resource definitions in text formats, administrators can describe their workloads instead of performing the right sequence of operations to create them. This approach is called declarative resource management.<br /><br />
+
+![](https://files.readme.io/61bdb5e68285c0f22627fe22fdd4709db32264ce0bd2e98301bba28accda86e4-k8sn.png)
