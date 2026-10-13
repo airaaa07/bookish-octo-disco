@@ -8,8 +8,6 @@ link:
 metadata:
   robots: index
 ---
-#
-
 ## 1. Introduction
 
 Kubernetes provides a standard way to define, create, manage, and monitor applications running in a cluster.
