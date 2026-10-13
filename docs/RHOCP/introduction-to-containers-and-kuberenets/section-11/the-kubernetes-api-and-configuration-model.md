@@ -1,5 +1,6 @@
 ---
 title: 1.1.5 - The Kubernetes API and Configuration Model
+excerpt: The Kubernetes API and Configuration Model
 deprecated: false
 hidden: false
 link:
@@ -7,7 +8,7 @@ link:
 metadata:
   robots: index
 ---
-# The Kubernetes API and Configuration Model
+#
 
 ## 1. Introduction
 
