@@ -1,10 +1,12 @@
 ---
-title: Why Do We Need Containers?
+title: 1.1.1a - Why Do We Need Containers?
 excerpt: >-
   Compare host processes with containers to understand isolation, dependency
   management, and deployment.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
