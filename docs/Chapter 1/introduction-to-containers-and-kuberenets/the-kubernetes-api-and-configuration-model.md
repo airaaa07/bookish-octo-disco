@@ -25,8 +25,8 @@ References<br />External Resources
 
 <Anchor target="_blank" href="https://kubernetes.io/docs/concepts/containers/">Containers</Anchor>
 
-[Kubernetes Concepts Overview]()
+<Anchor target="_blank" href="https://kubernetes.io/docs/concepts/overview/">Kubernetes Concepts Overview</Anchor>
 
-What Kubernetes Is Not
+[What Kubernetes Is Not]()
 
 Considerations for Large Clusters
