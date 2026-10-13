@@ -27,4 +27,4 @@ Starting from OpenShift Container Platform 4.14, the EUS phase for even-numbered
 
 <Anchor target="_blank" href="https://docs.aws.amazon.com/rosa/latest/userguide/rosa-responsibilities.html">Overview of Responsibilities for Red Hat OpenShift Service on AWS</Anchor>
 
-[What Kubernetes Is Not]()
+<Anchor target="_blank" href="https://kubernetes.io/docs/concepts/overview/#what-kubernetes-is-not">What Kubernetes Is Not</Anchor>
