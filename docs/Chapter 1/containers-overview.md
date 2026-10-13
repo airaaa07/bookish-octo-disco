@@ -56,8 +56,6 @@ Containers use Linux kernel features, such as **namespaces** and **control group
 
 The **Open Container Initiative (OCI)** maintains open standards for container images, container runtimes, and container-related technologies. These standards define common formats and behaviors that promote compatibility across different container tools and platforms.
 
-By following OCI specifications, container images can be built and packaged in a standardized format and run on compatible container runtimes, reducing dependence on a specific container engine or platform.
-
 ### 4. Remember this for OpenShift
 
 - **Program:** Application code or an executable that can be run.
