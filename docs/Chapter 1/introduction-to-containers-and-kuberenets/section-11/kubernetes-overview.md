@@ -1,7 +1,9 @@
 ---
-title: Kubernetes Overview
+title: 1.1.2 - Kubernetes Overview
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
