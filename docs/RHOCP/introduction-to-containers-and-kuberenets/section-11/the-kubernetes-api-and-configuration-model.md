@@ -284,27 +284,58 @@ Namespaces, RBAC, and resource quotas can work together to improve the organizat
 The following Mermaid diagram illustrates the declarative workflow.<br />
 
 ```mermaid
-flowchart TD
-    A["Administrator defines desired state"]
-    B["YAML or JSON manifest"]
-    C["kubectl apply"]
-    D["Kubernetes API Server"]
-    E[("Cluster state stored in etcd")]
-    F["Controllers reconcile resources"]
-    G["Scheduler selects suitable nodes"]
-    H["Kubelet and container runtime run pods"]
-    I["Actual state approaches desired state"]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I -. "Continuous reconciliation" .-> F
+flowchart TB
+    USER(["Administrator"])
+
+    subgraph CONFIG["Configuration"]
+        YAML["YAML Manifest"]
+        KUBECTL["kubectl apply"]
+        YAML --> KUBECTL
+    end
+
+    subgraph CONTROL["Kubernetes Control Plane"]
+        API["API Server"]
+        ETCD[("etcd<br/>Cluster State")]
+        CTRL["Controllers<br/>Reconciliation"]
+        SCHED["Scheduler<br/>Node Selection"]
+
+        API <--> ETCD
+        API --> CTRL
+        API --> SCHED
+    end
+
+    subgraph WORKERS["Worker Nodes"]
+        subgraph NODE1["Worker Node 1"]
+            K1["Kubelet"]
+            P1["Pod 1<br/>Application"]
+        end
+
+        subgraph NODE2["Worker Node 2"]
+            K2["Kubelet"]
+            P2["Pod 2<br/>Application"]
+        end
+    end
+
+    USER --> YAML
+    KUBECTL --> API
+    CTRL -. "Maintains desired replicas" .-> API
+    SCHED -. "Scheduling decisions" .-> API
+    K1 --> P1
+    K2 --> P2
+    API <--> K1
+    API <--> K2
+
+    classDef config fill:#fff3cd,stroke:#d39e00,color:#664d03
+    classDef control fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    classDef worker fill:#dcfce7,stroke:#16a34a,color:#14532d
+
+    class YAML,KUBECTL config
+    class API,ETCD,CTRL,SCHED control
+    class K1,K2,P1,P2 worker
 ```
+
+<br />
 
 ![](https://files.readme.io/61bdb5e68285c0f22627fe22fdd4709db32264ce0bd2e98301bba28accda86e4-k8sn.png)
 
