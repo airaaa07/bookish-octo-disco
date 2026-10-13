@@ -21,10 +21,10 @@ Starting from OpenShift Container Platform 4.14, the EUS phase for even-numbered
 
 <Anchor target="_blank" href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html-single/architecture/index#supported-platforms-for-openshift-clusters_architecture-installation">Supported Platforms for OpenShift Container Platform Clusters (RHOCP 4.22)</Anchor>
 
-[Red Hat OpenShift Container Platform Life Cycle Policy]()
+<Anchor target="_blank" href="https://access.redhat.com/support/policy/updates/openshift">Red Hat OpenShift Container Platform Life Cycle Policy</Anchor>
 
 #### External Resources
 
-Overview of Responsibilities for Red Hat OpenShift Service on AWS
+[Overview of Responsibilities for Red Hat OpenShift Service on AWS]()
 
 What Kubernetes Is Not
