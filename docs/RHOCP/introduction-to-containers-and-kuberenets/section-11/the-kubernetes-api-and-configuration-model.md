@@ -335,10 +335,7 @@ Its key concepts are:
 
 ## **Refernces**<br />**External Resources**
 
-<Anchor target="_blank" href="https://kubernetes.io/docs/concepts/containers/">Containers</Anchor>
-
-<Anchor target="_blank" href="https://kubernetes.io/docs/concepts/overview/">Kubernetes Concepts Overview</Anchor>
-
-<Anchor target="_blank" href="https://kubernetes.io/docs/concepts/overview/#what-kubernetes-is-not">What Kubernetes Is Not</Anchor>
-
-<Anchor target="_blank" href="https://kubernetes.io/docs/setup/best-practices/cluster-large/">Considerations for Large Clusters</Anchor>
+- <Anchor target="_blank" href="https://kubernetes.io/docs/concepts/containers/">Containers</Anchor>
+- <Anchor target="_blank" href="https://kubernetes.io/docs/concepts/overview/">Kubernetes Concepts Overview</Anchor>
+- <Anchor target="_blank" href="https://kubernetes.io/docs/concepts/overview/#what-kubernetes-is-not">What Kubernetes Is Not</Anchor>
+- <Anchor target="_blank" href="https://kubernetes.io/docs/setup/best-practices/cluster-large/">Considerations for Large Clusters</Anchor>
