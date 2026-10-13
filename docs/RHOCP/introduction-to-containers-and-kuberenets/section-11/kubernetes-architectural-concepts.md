@@ -158,39 +158,6 @@ flowchart TB
 
 <br />
 
-```mermaid
-flowchart TB
-    subgraph CP["Kubernetes Control Plane"]
-        API["API Server"]
-        ETCD[("etcd")]
-        SCH["Scheduler"]
-        CM["Controller Manager"]
-
-        API <--> ETCD
-        API --- SCH
-        API --- CM
-    end
-
-    subgraph WP["Kubernetes Worker Nodes"]
-        subgraph W1["Worker Node 1"]
-            P1["Pod 1<br/>Application Container"]
-        end
-
-        subgraph W2["Worker Node 2"]
-            P2["Pod 2<br/>Application Container"]
-        end
-
-        subgraph W3["Worker Node 3"]
-            P3["Pod 3<br/>Application Container"]
-        end
-    end
-
-    API <--> W1
-    API <--> W2
-    API <--> W3
-
-```
-
 ![](https://files.readme.io/f9b0d9b748c51f27668b2af2ec08404c123a5c68ccd3f3cc91983a8f9c414495-k8s.png)
 
 ## 7. Hosted Control Plane Architecture
