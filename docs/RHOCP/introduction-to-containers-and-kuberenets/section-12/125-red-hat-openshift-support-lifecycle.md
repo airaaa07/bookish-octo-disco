@@ -15,9 +15,9 @@ Starting from OpenShift Container Platform 4.14, the EUS phase for even-numbered
 
 <Anchor target="_blank" href="https://www.redhat.com/en/technologies/cloud-computing/openshift/kubernetes-engine">Red Hat OpenShift Kubernetes Engine</Anchor>
 
-[Red Hat OpenShift Cloud Services]()
+<Anchor target="_blank" href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-cloud-services">Red Hat OpenShift Cloud Services</Anchor>
 
-Red Hat OpenShift Platform Plus
+<Anchor target="_blank" href="https://www.redhat.com/en/technologies/cloud-computing/openshift/platform-plus">Red Hat OpenShift Platform Plus</Anchor>
 
 Supported Platforms for OpenShift Container Platform Clusters (RHOCP 4.22)
 
