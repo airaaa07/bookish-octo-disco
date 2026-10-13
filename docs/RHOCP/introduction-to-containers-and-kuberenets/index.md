@@ -1,8 +1,10 @@
 ---
-title: Introduction to Containers and Kuberenets
+title: 'Chapter 1: Introduction to Kuberenetes and OpenShift'
 excerpt: Page 1
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
