@@ -1,7 +1,9 @@
 ---
-title: Kubernetes Architectural Concepts
+title: 1.1.4 - Kubernetes Architectural Concepts
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
