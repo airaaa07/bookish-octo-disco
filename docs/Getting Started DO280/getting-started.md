@@ -1,6 +1,8 @@
 ---
-title: Welcome to DO280
+title: Welcome to DO180
 hidden: false
+link:
+  new_tab: false
 ---
 <Callout icon="📘" theme="info">
   **Template:**  Delete this callout and edit this page with your content and links.
