@@ -6,20 +6,20 @@ hidden: false
 metadata:
   robots: index
 ---
-You access the web console by using any modern web browser. The web console URL is generally configurable, and the cluster administrator provides it to you. If the cluster administrator provides the cluster API endpoint instead of the web console URL, then you can discover the web console address by using the oc command-line interface (CLI).
+You access the web console by any modern web browser. The web console URL is generally configurable, and you can discover the address for your cluster web console by using the `oc` command-line interface (CLI). From a terminal, you must first authenticate to the cluster via the CLI by using the `oc login -u <USERNAME> -p <PASSWORD> <API_ENDPOINT>:<PORT>` command:
 
-From a terminal, authenticate to the cluster by using the oc login -u <USERNAME> \<API_ENDPOINT>:<PORT> command:
-
-\[user\@host \~]$ oc login -u developer [https://api.lab.example.com:6443](https://api.lab.example.com:6443)
-Console URL: [https://api.lab.example.com:6443/console](https://api.lab.example.com:6443/console)
-Authentication required for [https://api.lab.example.com:6443](https://api.lab.example.com:6443) (openshift)
-Username: developer
-Password: developer
+```
+[user@host ~]$ oc login -u developer -p developer https://api.ocp4.example.com:6443
 Login successful.
+
 ...output omitted...
-The oc login command output displays the Console URL shortcut. This API-based endpoint automatically redirects your web browser to the web console address that the console operator configured.
+```
 
-Alternatively, retrieve the direct web console URL by running the oc whoami --show-console command:
+Then, you execute the `oc whoami --show-console` command to retrieve the web console URL:
 
-\[user\@host \~]$ oc whoami --show-console
-[https://console-openshift-console.apps.lab.example.com](https://console-openshift-console.apps.lab.example.com)<br /><br />Lastly, use a web browser to go to the URL, which displays the authentication page:
+```
+[user@host ~]$ oc whoami --show-console
+https://console-openshift-console.apps.ocp4.example.com
+```
+
+Lastly, use a web browser to go to the URL, which displays the authentication page
