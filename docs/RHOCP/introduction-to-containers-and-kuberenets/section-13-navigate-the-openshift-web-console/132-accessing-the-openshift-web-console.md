@@ -22,4 +22,4 @@ Then, you execute the `oc whoami --show-console` command to retrieve the web con
 https://console-openshift-console.apps.ocp4.example.com
 ```
 
-Lastly, use a web browser to go to the URL, which displays the authentication page
+Lastly, use a web browser to go to the URL, which displays the authentication page<br /><br /><br />//pending page 8
