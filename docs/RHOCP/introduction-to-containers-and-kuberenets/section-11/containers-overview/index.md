@@ -66,3 +66,9 @@ The **Open Container Initiative (OCI)** maintains open standards for container i
 - **Pod:** The Kubernetes/OpenShift unit that runs one or more containers.
 
 **One important detail:** A container is not technically a separate computer. Its processes use the host machine's operating-system kernel.
+
+### <br />References:
+
+[https://github.com/RHEPDS/bootcamp/blob/main/1_OpenShift%20for%20Developers.pdf](https://github.com/RHEPDS/bootcamp/blob/main/1_OpenShift%20for%20Developers.pdf "https://github.com/RHEPDS/bootcamp/blob/main/1_OpenShift%20for%20Developers.pdf")
+
+Check Page: 16 to 32
