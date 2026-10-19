@@ -71,4 +71,4 @@ The **Open Container Initiative (OCI)** maintains open standards for container i
 
 [https://github.com/RHEPDS/bootcamp/blob/main/1_OpenShift%20for%20Developers.pdf](https://github.com/RHEPDS/bootcamp/blob/main/1_OpenShift%20for%20Developers.pdf "https://github.com/RHEPDS/bootcamp/blob/main/1_OpenShift%20for%20Developers.pdf")
 
-Check Page: 16 to 32
+Check Page: 16 to 32 for containers proper overview
