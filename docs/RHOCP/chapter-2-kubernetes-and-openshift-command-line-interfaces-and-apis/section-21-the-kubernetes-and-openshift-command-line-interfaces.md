@@ -61,7 +61,7 @@ You can then install the kubectl CLI.
 
 **Note**
 
-If you do not have root access on the target system, then you can still install the kubectl CLI to the \~/.local/bin directory. For more information, refer to [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/).
+_If you do not have root access on the target system, then you can still install the kubectl CLI to the \~/.local/bin directory. For more information, refer to&#x20;_[_https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/_](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)_._
 
 Finally, use the kubectl version command to verify the installed version. This command prints the client and server versions. Use the --client option to view the client version only.
 
