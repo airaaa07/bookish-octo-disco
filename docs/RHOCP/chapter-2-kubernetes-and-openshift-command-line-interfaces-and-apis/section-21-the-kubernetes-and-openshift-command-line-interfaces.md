@@ -452,12 +452,12 @@ apiserver-68c9485699-ndqlc   2/2     Running   2          18d
 
 Refer to the references for a complete list of oc commands.
 
-## References
-
-<Anchor target="_blank" href="https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/">Kubernetes Documentation - Install and Set Up kubectl on Linux</Anchor>
-
-For more information, refer to the Getting Started with the OpenShift CLI chapter in the Red Hat OpenShift Container Platform 4.18 CLI Tools documentation at [https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-about-cli_cli-developer-commands](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-about-cli_cli-developer-commands)
-
-For more information, refer to the CLI Developer Commands chapter in the Red Hat OpenShift Container Platform 4.18 CLI Tools documentation at [https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-developer-commands](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-developer-commands)
-
-For more information, refer to the Understanding Authentication chapter in the Red Hat OpenShift Container Platform 4.18 Authentication and Authorization documentation at [https://docs.redhat.com/en/documentation/openshift\\\_container\\\_platform/4.18/html-single/authentication\\\_and\\\_authorization/index#understanding-authentication](https://docs.redhat.com/en/documentation/openshift\\_container\\_platform/4.18/html-single/authentication\\_and\\_authorization/index#understanding-authentication)
+> ## References
+>
+> <Anchor target="_blank" href="https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/">Kubernetes Documentation - Install and Set Up kubectl on Linux</Anchor>
+>
+> For more information, refer to the Getting Started with the OpenShift CLI chapter in the Red Hat OpenShift Container Platform 4.18 CLI Tools documentation at [https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-about-cli_cli-developer-commands](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-about-cli_cli-developer-commands)
+>
+> For more information, refer to the CLI Developer Commands chapter in the Red Hat OpenShift Container Platform 4.18 CLI Tools documentation at [https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-developer-commands](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html-single/cli_tools/index#cli-developer-commands)
+>
+> For more information, refer to the Understanding Authentication chapter in the Red Hat OpenShift Container Platform 4.18 Authentication and Authorization documentation at [https://docs.redhat.com/en/documentation/openshift\\\_container\\\_platform/4.18/html-single/authentication\\\_and\\\_authorization/index#understanding-authentication](https://docs.redhat.com/en/documentation/openshift\\_container\\_platform/4.18/html-single/authentication\\_and\\_authorization/index#understanding-authentication)
