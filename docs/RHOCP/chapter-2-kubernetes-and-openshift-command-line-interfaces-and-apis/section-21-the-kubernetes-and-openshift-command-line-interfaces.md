@@ -248,8 +248,8 @@ You can also use the --web option to log in to the cluster by using a web browse
 
 This command opens a browser window to the OpenShift authentication page, to log in with your username and password, or other authentication method. Then, the command automatically returns the authentication token to the command line, to complete the login process.
 
-**Important**
-
+> **Important**
+>
 > _For simplicity, this course uses the username and password authentication method by providing the password as plain text, as follows:_
 >
 > ```
