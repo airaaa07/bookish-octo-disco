@@ -250,14 +250,14 @@ This command opens a browser window to the OpenShift authentication page, to log
 
 **Important**
 
-For simplicity, this course uses the username and password authentication method by providing the password as plain text, as follows:
-
-```
-[user@host ~]$ oc login -u admin -p redhatocp \
-  https://api.ocp4.example.com:6443
-```
-
-However, this method is not secure, and Red Hat does not recommended it for production environments. Thus, in production environments use a more secure method, such as token-based authentication.
+> _For simplicity, this course uses the username and password authentication method by providing the password as plain text, as follows:_
+>
+> ```
+> [user@host ~]$ oc login -u admin -p redhatocp \
+>   https://api.ocp4.example.com:6443
+> ```
+>
+> _However, this method is not secure, and Red Hat does not recommended it for production environments. Thus, in production environments use a more secure method, such as token-based authentication._
 
 ## Managing Resources at the Command Line
 
