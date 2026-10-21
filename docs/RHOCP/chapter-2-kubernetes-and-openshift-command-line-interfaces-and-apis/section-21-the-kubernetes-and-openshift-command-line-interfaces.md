@@ -160,7 +160,9 @@ x86_64 Windows, Mac, and Linux systems
 
 ARM 64 Linux and Mac systems
 
-Linux for IBM Z, IBM Power, and little endian
+Linux for IBM Z, IBM Power, and little endian<br /><br />
+
+![](https://files.readme.io/3ea74b49c5db2cf43aff5106a34313c37e8a375a3559ddeab4b916870840cf2a-cliTools.png)
 
 The basic usage of the oc command is through its subcommands in the following syntax:
 
@@ -196,7 +198,7 @@ Each user must authenticate to access a cluster. After authentication, the polic
 
 **Note**
 
-Authentication and authorization are covered in greater detail in the Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280) course.
+_Authentication and authorization are covered in greater detail in the Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280) course._
 
 Use the oc login command to authenticate your requests. The oc login command provides role-based authentication and authorization that protects the RHOCP cluster from unauthorized access.
 
