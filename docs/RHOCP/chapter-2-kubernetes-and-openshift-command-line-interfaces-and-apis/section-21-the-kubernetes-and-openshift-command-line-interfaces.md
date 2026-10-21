@@ -196,9 +196,9 @@ ServiceAccount objects represent accounts that allow applications to access the 
 
 Each user must authenticate to access a cluster. After authentication, the policy determines what the user is authorized to do.
 
-**Note**
-
-_Authentication and authorization are covered in greater detail in the Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280) course._
+> **Note**
+>
+> _Authentication and authorization are covered in greater detail in the Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280) course._
 
 Use the oc login command to authenticate your requests. The oc login command provides role-based authentication and authorization that protects the RHOCP cluster from unauthorized access.
 
