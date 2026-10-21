@@ -232,7 +232,9 @@ The RHOCP control plane includes a built-in OAuth server. To authenticate to the
 [user@host ~]$ oc login --token=your-token --server=cluster-url
 ```
 
-To retrieve a token, open a web browser and go to [https://oauth-openshift.apps.cluster-url/oauth/token/request](https://oauth-openshift.apps.cluster-url/oauth/token/request) Then, click Display token to display the login command.
+To retrieve a token, open a web browser and go to [https://oauth-openshift.apps.cluster-url/oauth/token/request](https://oauth-openshift.apps.cluster-url/oauth/token/request) Then, click Display token to display the login command.<br /><br />
+
+![](https://files.readme.io/f1cbb7030b6ad08ac1c19fa0dcab2283efb5c37458fb967556ca19ca33d23c43-token.png)
 
 ### Web Authentication
 
