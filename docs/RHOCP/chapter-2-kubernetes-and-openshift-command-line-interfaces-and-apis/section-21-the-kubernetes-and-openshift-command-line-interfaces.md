@@ -1,6 +1,8 @@
 ---
 title: 'Section 2.1: The Kubernetes and OpenShift Command-line Interfaces'
-excerpt: The Kubernetes and OpenShift Command-line Interfaces
+excerpt: >-
+  This is compleltely done should explore each and every term in this what is
+  what in it!
 deprecated: false
 hidden: false
 metadata:
