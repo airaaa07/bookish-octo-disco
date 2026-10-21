@@ -18,15 +18,11 @@ You can manage an OpenShift cluster from the web console or by using the kubectl
 
 With the oc command, you can create applications and manage Red Hat OpenShift Container Platform (RHOCP) projects from a terminal. The OpenShift CLI is ideal in the following situations:
 
-Working directly with project source code
-
-Scripting OpenShift Container Platform operations
-
-Managing projects that are restricted by bandwidth
-
-When the web console is unavailable
-
-Working with OpenShift resources, such as routes and projects
+- Working directly with project source code
+- Scripting OpenShift Container Platform operations
+- Managing projects that are restricted by bandwidth
+- When the web console is unavailable
+- Working with OpenShift resources, such as routes and projects
 
 ## Kubernetes Command-line Tool
 
